@@ -1,0 +1,82 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{  padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    flex-direction: column;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+}
+
+.CONTENEDORMAESTRO{
+    background-color: aquamarine;
+    width: 500px;
+    height: 700px;
+
+}
+.contenedorgeneral{
+    background-color: white;
+    width: 450px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
+
+.imagenfondo{
+   
+    
+    flex-direction: column;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logomusic{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 300px;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+
+h1{
+    animation: animacion1 5s ease-in-out infinite ;
+    color: black;
+    
+}
+
+h2{
+    font-size: medium;
+    color: blueviolet;
+}
+
+@keyframes animacion1{
+    0% {transform:scale(0.5)
+    }
+    50%{transform:scale(1.0)
+    }
+    100%{transform:scale(0.5)
+    }
+}
+
+.boton1{
+    background-color: rgb(40, 55, 192);
+    color: white;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
